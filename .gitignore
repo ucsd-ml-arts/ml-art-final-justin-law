@@ -1,0 +1,7 @@
+ArtGAN-religious-generation/*
+dataset/paintings/*
+bigGAN-environment/*
+*/*.h5
+*/*.json
+*/core*
+*/.ipynb_checkpoints/
