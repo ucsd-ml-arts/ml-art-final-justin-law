@@ -14,6 +14,7 @@ Upload your project report (4 pages) as a pdf with your repository, following th
 
 Briefly describe the files that are included with your repository:
 - famous_paintings/* (png or jpeg) contain the images used in the generate/ folder in which I apply only the feed-forward network to generate the outputs in sample_outputs/. They are saved by right click -> save as... on a windows machine.
+- generation_images/* are used for validation under the training ipynb, which are located under the appropriated named folder (i.e. all/ -> all/*.ipynb).
 - The trained models are in the .h5 files linked under technical results. But for a faster way to reproduce the results, see **Code**
 second bullet point.
 - training data:
