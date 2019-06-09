@@ -4,7 +4,7 @@ Justin Law, jklaw@ucsd.edu
 
 ## Abstract Proposal
 
-Expanding on the previous project, I trained 5 different cycleGAN networks of subsets of the william blake images curated from before. The results from project 4 were interesting, but they can be improved upon by adjusting model hyperparamters and the number of hidden layers. The end goal is to take an input image and stylize it to william blake, but this will be achieved through various methods: run through multiple subsets, one subset. The 5 different cycleGANs will be trained on subsets of the paintings dataset (for example, boats) as well as one or more closely related (in style) William Blake paintings/water color/sketches. The final project results will be presented as a dozen or so select images generated from the 5 cycleGANs with input images as famous paintings or interesting images.
+Expanding on the previous project, I trained 5 different 256x256 input cycleGAN networks of subsets of the william blake images curated from before. The results from project 4 were interesting, but they can be improved upon by adjusting model hyperparamters and the number of hidden layers. The end goal is to take an input image and stylize it to william blake, but this will be achieved through various methods: run through multiple subsets, one subset. The 5 different cycleGANs will be trained on subsets of the paintings dataset (for example, boats) as well as one or more closely related (in style) William Blake paintings/water color/sketches. The final project results will be presented as a dozen or so select images generated from the 5 cycleGANs with input images as famous paintings or interesting images.
 
 ## Project Report
 
@@ -13,6 +13,7 @@ Upload your project report (4 pages) as a pdf with your repository, following th
 ## Model/Data
 
 Briefly describe the files that are included with your repository:
+- famous_paintings/* (png or jpeg) contain the images used in the generate/ folder in which I apply only the feed-forward network to generate the outputs in sample_outputs/. They are saved by right click -> save as... on a windows machine.
 - The trained models are in the .h5 files linked under technical results. But for a faster way to reproduce the results, see **Code**
 second bullet point.
 - training data:
